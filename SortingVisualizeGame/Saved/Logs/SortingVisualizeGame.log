@@ -1277,3 +1277,68 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.01-02.44.01:471][733]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1003.964233
 [2025.12.01-02.44.02:471][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.12.01-02.44.02:471][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1004.630737, Update Interval: 329.167755
+[2025.12.01-02.49.43:863][760]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1346.356689
+[2025.12.01-02.49.44:863][763]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-02.49.44:863][764]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1347.023438, Update Interval: 342.685028
+[2025.12.01-02.51.31:402][174]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.01-02.51.31:413][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.01-02.51.31:437][174]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Untitled
+[2025.12.01-02.51.31:446][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009256s)
+[2025.12.01-02.51.31:446][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Untitled.Untitled to /Game/UEDPIE_0_Untitled.Untitled (0.009666s)
+[2025.12.01-02.51.31:601][174]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2025.12.01-02.51.31:604][174]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.12.01-02.51.31:609][174]LogPlayLevel: PIE: World Init took: (0.003436s)
+[2025.12.01-02.51.31:609][174]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.01-02.51.31:609][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.01-02.51.31:609][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.01-02.51.31:609][174]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.01-02.51.31:609][174]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.01-02.51.31:609][174]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.01-02.51.31:611][174]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.01-02.51.31:793][174]LogAudioMixer: Display: Using Audio Hardware Device Headphone (Realtek(R) Audio)
+[2025.12.01-02.51.31:793][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.01-02.51.31:793][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.01-02.51.31:793][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.01-02.51.31:795][174]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.12.01-02.51.31:795][174]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.12.01-02.51.31:796][174]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.12.01-02.51.31:796][174]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.12.01-02.51.31:796][174]LogInit: FAudioDevice initialized with ID 3.
+[2025.12.01-02.51.31:796][174]LogAudio: Display: Audio Device (ID: 3) registered with world 'Untitled'.
+[2025.12.01-02.51.31:796][174]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.12.01-02.51.31:809][174]LogLoad: Game class is 'GameModeBase'
+[2025.12.01-02.51.31:810][174]LogWorld: Bringing World /Game/UEDPIE_0_Untitled.Untitled up for play (max tick rate 60) at 2025.12.01-05.51.31
+[2025.12.01-02.51.31:810][174]LogWorld: Bringing up level for play took: 0.001107
+[2025.12.01-02.51.31:813][174]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2025.12.01-02.51.31:820][174]PIE: Server logged in
+[2025.12.01-02.51.31:821][174]PIE: Play in editor total start time 0,411 seconds.
+[2025.12.01-02.51.31:863][175]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.01-02.51.42:766][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.01-02.51.42:766][825]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Untitled
+[2025.12.01-02.51.42:766][825]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-02.51.42:767][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-02.51.42:770][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.01-02.51.42:772][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-02.51.42:789][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.01-02.51.42:789][825]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.12.01-02.51.42:789][825]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2025.12.01-02.51.42:792][825]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2025.12.01-02.51.42:798][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.12.01-02.51.42:855][827]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.12.01-02.55.43:716][707]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1706.209351
+[2025.12.01-02.55.44:715][711]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-02.55.44:715][711]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1706.875122, Update Interval: 308.109985
+[2025.12.01-03.01.33:790][758]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2056.284180
+[2025.12.01-03.01.34:789][761]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-03.01.34:789][761]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2056.950439, Update Interval: 356.041138
+[2025.12.01-03.08.20:996][392]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2463.484375
+[2025.12.01-03.08.21:996][394]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-03.08.21:996][394]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2464.151123, Update Interval: 312.024902
