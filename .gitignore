@@ -1,0 +1,59 @@
+# -----------------------------
+# Unreal Engine Git Ignore File
+# -----------------------------
+
+# Binaries & Build Artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE folders
+.vs/
+.vscode/
+*.sln
+
+# User-specific files
+*.user
+*.opensdf
+*.sdf
+*.suo
+*.VC.db
+
+# Logs
+*.log
+*.dmp
+
+# Compiled files
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.so
+*.pdb
+
+# Mac specific
+.DS_Store
+
+# Generated project files
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+*.xcsettings
+
+# Unreal auto-generated config
+Config/DefaultEditor.ini
+Config/DefaultEditorSettings.ini
+
+# Backups
+*.bak
+
+# Cache
+DerivedDataCache/
+*.tmp
+
+# Plugins build artifacts
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
